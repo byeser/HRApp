@@ -1,0 +1,14 @@
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\bin\Debug\netcoreapp2.2\HRApp.ServiceHost.API.deps.json
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\bin\Debug\netcoreapp2.2\HRApp.ServiceHost.API.runtimeconfig.json
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\bin\Debug\netcoreapp2.2\HRApp.ServiceHost.API.runtimeconfig.dev.json
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\bin\Debug\netcoreapp2.2\HRApp.ServiceHost.API.dll
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.csprojAssemblyReference.cache
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.csproj.CoreCompileInputs.cache
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.RazorAssemblyInfo.cache
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.RazorAssemblyInfo.cs
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.AssemblyInfoInputs.cache
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.AssemblyInfo.cs
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.RazorTargetAssemblyInfo.cache
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\bin\Debug\netcoreapp2.2\HRApp.ServiceHost.API.pdb
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.dll
+C:\Users\Eser\Documents\Visual Studio 2017\Projects\HRApp\HRApp.ServiceHost.API\obj\Debug\netcoreapp2.2\HRApp.ServiceHost.API.pdb
