@@ -1,0 +1,1 @@
+﻿Sayın yetkili task da bulunan maddeler hazırlandı. login,yeni kayıt,mail ve telefon numarası kaydeden ve geri döndüren sistem yazılmıştır .3 dakikalık bir token süresinden sorna tekrar sisteme giriş yapması gerekmektedir.yetkisi yoksa herhangi bir istekte bulunamaz .sadece yeni kullanıcı eklerken yetkiye ihtiyacı yoktur.

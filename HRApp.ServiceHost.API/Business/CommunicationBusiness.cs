@@ -15,6 +15,20 @@ namespace HRApp.ServiceHost.API.Business
         {
             _communicationRepository = communicationRepository;
         }
+        /// <summary>
+        /// new record Communication
+        /// </summary>
+        /// <param name="communication">Communication class</param>
+        /// <returns></returns>
+        public async Task AddAsync(Communication communication)
+        {
+            await _communicationRepository.AddAsync(communication);
+        }
+        /// <summary>
+        /// return communication information by user id
+        /// </summary>
+        /// <param name="userid">User Id</param>
+        /// <returns>Task<CommunicationResponse> </returns>
         public async Task<CommunicationResponse> GetByUserIdAsync(long userid)
         {
             IEnumerable<Communication> com = await _communicationRepository.GetByUserIdAsync(userid);

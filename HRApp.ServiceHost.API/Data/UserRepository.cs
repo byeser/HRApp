@@ -9,6 +9,11 @@ namespace HRApp.ServiceHost.API.Data
 {
     public class UserRepository : IUserRepository
     {
+        /// <summary>
+        /// new user record
+        /// </summary>
+        /// <param name="user">User class</param>
+        /// <returns>Task User</returns>
         public async Task AddAsync(User user)
         {
             using (var dbConnection = Connection.GetDbConnection())
@@ -25,7 +30,12 @@ namespace HRApp.ServiceHost.API.Data
                 await dbConnection.ExecuteAsync(query, user);
             }
         }
-
+        /// <summary>
+        ///   jwt token and User class
+        /// </summary>
+        /// <param name="username">username</param>
+        /// <param name="password">password</param>
+        /// <returns> Task<User></returns>
         public async Task<User> Authenticate(string username, string password)
         {
             using (var dbConnection = Connection.GetDbConnection())
@@ -37,7 +47,10 @@ namespace HRApp.ServiceHost.API.Data
                 return await dbConnection.QueryFirstOrDefaultAsync<User>(query, new { @UserName = username, @Password =password});
             }
         }
-
+        /// <summary>
+        /// get all user list
+        /// </summary>
+        /// <returns> Task<IEnumerable<User>></returns>
         public async Task<IEnumerable<User>> GetAllAsync()
         {
             using (var dbConnection = Connection.GetDbConnection())
@@ -48,7 +61,11 @@ namespace HRApp.ServiceHost.API.Data
 
             }
         }
-
+        /// <summary>
+        /// get by user id
+        /// </summary>
+        /// <param name="id">user id</param>
+        /// <returns> Task<User></returns>
         public async Task<User> GetAsync(long id)
         {
             using (var dbConnection = Connection.GetDbConnection())
@@ -60,7 +77,11 @@ namespace HRApp.ServiceHost.API.Data
                 return await dbConnection.QueryFirstOrDefaultAsync<User>(query, new { @Id = id });
             }
         }
-
+        /// <summary>
+        /// update User
+        /// </summary>
+        /// <param name="user">User class</param>
+        /// <returns>Task User</returns>
         public async Task UpdateAsync(User user)
         {
             using (var dbConnection = Connection.GetDbConnection())

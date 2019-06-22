@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "b6410531e02de903725d66d4169f070c24134023"
+    "signature": "7116af11b9cc83cbead5f9e40827f9d16fdcac63"
   },
   "compilationOptions": {
     "defines": [
@@ -27,8 +27,10 @@
           "Dapper": "1.60.6",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
+          "Microsoft.Extensions.Logging": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
+          "Swashbuckle.AspNetCore.Swagger": "4.0.1",
           "System.IdentityModel.Tokens.Jwt": "5.4.0"
         },
         "runtime": {
@@ -281,6 +283,21 @@
         },
         "compile": {
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/4.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
         }
       },
       "System.Composition/1.0.31": {
@@ -3683,6 +3700,13 @@
       "sha512": "sha512-qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rqzS3vHrjz+tR5j0nZOKZyaMTDfLGbVYkwMq205aYuGbsiGwbOlNU0Q8lq4Q0ptQPMKVkUf8XouCIdJ3qpK17w==",
+      "path": "swashbuckle.aspnetcore.swagger/4.0.1",
+      "hashPath": "swashbuckle.aspnetcore.swagger.4.0.1.nupkg.sha512"
     },
     "System.Composition/1.0.31": {
       "type": "package",

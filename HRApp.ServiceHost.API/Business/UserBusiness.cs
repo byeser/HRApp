@@ -23,12 +23,21 @@ namespace HRApp.ServiceHost.API.Business
             _userRepository = userRepository;
             _appSettings = appSettings.Value;
         }
-
+        /// <summary>
+        /// new record  user
+        /// </summary>
+        /// <param name="user">User class</param>
+        /// <returns> Task User class</returns>
         public async Task AddAsync(User user)
         {
             await _userRepository.AddAsync(user);
         }
-
+        /// <summary>
+        /// jwt token and User token
+        /// </summary>
+        /// <param name="username">username</param>
+        /// <param name="password">password</param>
+        /// <returns>Task<User></returns>
         public async Task<User> Authenticate(string username, string password)
         {
             var user = await _userRepository.Authenticate(username, password);
@@ -51,7 +60,10 @@ namespace HRApp.ServiceHost.API.Business
             user.password = null;
             return user;
         }
-
+        /// <summary>
+        /// get all user list
+        /// </summary>
+        /// <returns>Task<UserResponse></returns>
         public async Task<UserResponse> GetAllAsync()
         {
             IEnumerable<User> user = await _userRepository.GetAllAsync();
@@ -63,7 +75,11 @@ namespace HRApp.ServiceHost.API.Business
             return response;
 
         }
-
+        /// <summary>
+        /// user info , get by user id 
+        /// </summary>
+        /// <param name="id">user id</param>
+        /// <returns> Task<UserResponse></returns>
         public async Task<UserResponse> GetAsync(long id)
         {
             UserResponse response = new UserResponse();
@@ -75,7 +91,11 @@ namespace HRApp.ServiceHost.API.Business
                 response.Users.Add(usr);
             return response;
         }
-
+        /// <summary>
+        /// user update
+        /// </summary>
+        /// <param name="user">User class</param>
+        /// <returns>Task User class</returns>
         public async Task UpdateAsync(User user)
         {
             await _userRepository.UpdateAsync(user);

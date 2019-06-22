@@ -3135,6 +3135,19 @@
           }
         }
       },
+      "Swashbuckle.AspNetCore.Swagger/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -8416,6 +8429,19 @@
         "version.txt"
       ]
     },
+    "Swashbuckle.AspNetCore.Swagger/4.0.1": {
+      "sha512": "rqzS3vHrjz+tR5j0nZOKZyaMTDfLGbVYkwMq205aYuGbsiGwbOlNU0Q8lq4Q0ptQPMKVkUf8XouCIdJ3qpK17w==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.4.0.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -13009,8 +13035,10 @@
       "Dapper >= 1.60.6",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.Extensions.Logging >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "Swashbuckle.AspNetCore.Swagger >= 4.0.1",
       "System.IdentityModel.Tokens.Jwt >= 5.4.0"
     ]
   },
@@ -13073,6 +13101,10 @@
             "target": "Package",
             "version": "[2.2.0, )"
           },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -13082,6 +13114,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.2.3, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[4.0.1, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
